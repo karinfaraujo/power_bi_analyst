@@ -1,0 +1,84 @@
+# Projeto Power BI – Company Dashboard
+
+## Sobre o Projeto
+Este projeto consiste na construção de um **dashboard de análise de dados da empresa**, utilizando **Power BI** para integrar, transformar e visualizar informações de colaboradores, departamentos, projetos e alocações de horas.
+
+O objetivo principal foi criar um **modelo simples e funcional**, mostrando KPIs importantes como total de funcionários, projetos, departamentos e salários, além de gráficos para análise detalhada.
+
+> ⚠️ Nota: **Não foi utilizado Azure nem serviços pagos de nuvem**. Todo o trabalho foi feito localmente usando **MySQL Workbench** e Power BI Desktop, evitando custos de hospedagem.
+
+---
+
+## Banco de Dados
+O banco de dados contém as seguintes tabelas principais:
+
+- **Employee**: informações sobre os funcionários, incluindo salário, gerente e departamento.
+- **Department**: informações sobre departamentos, gerentes e datas de criação.
+- **Dept_Locations**: localização de cada departamento.
+- **Project**: projetos e alocações.
+- **Works_on**: horas trabalhadas por funcionário em cada projeto.
+- **Dependent**: dependentes de cada funcionário.
+
+O script SQL `script.sql` contém **a criação das tabelas e a inserção dos dados de exemplo**.
+
+---
+
+## Transformações no Power BI
+Principais transformações realizadas:
+
+- Ajuste de tipos de dados (salários, datas).  
+- Tratamento de nulos, especialmente na coluna `Super_ssn`.  
+- Criação de colunas calculadas:  
+  - `Departamento_Local` (combinação de nome do departamento e localização).  
+  - `Nome do Gerente` (mesclando tabelas Employee e Department).  
+- Mescla de tabelas para unir colaboradores com departamentos e gerentes.  
+- Criação de medidas DAX para visualizações e KPIs:  
+  - Total de Funcionários (`DISTINCTCOUNT(EmployeeFinal[Ssn])`)  
+  - Total de Departamentos (`DISTINCTCOUNT(Department[Dnumber])`)  
+  - Total de Projetos (`DISTINCTCOUNT(Project[Pnumber])`)  
+  - Total de Salários (`SUM(EmployeeFinal[Salary])`)  
+  - Total de Horas por Projeto (`SUM(Works_on[Hours])`)  
+
+---
+
+## Visualizações do Dashboard
+1. **Cards KPIs**:  
+   - Total de Colaboradores: 8  
+   - Total de Projetos: 3  
+   - Total de Departamentos: 6  
+   - Total de Horas: 275
+   - Total de Salários: 281.000  
+
+2. **Gráfico de Barras**: Colaboradores por Departamento. 
+
+3. **Tabela Resumida**:  
+   - Ssn  
+   - Minit 
+   - Nome
+   - Endereço
+   - Departamento e Localização
+   - Total do Salário 
+
+4. **Gráfico de Pizza**: Distribuição de Colaboradores por Sexo
+
+5. **Gráfico de Colunas**: Horas totais por projeto. 
+---
+
+## Aprendizado
+- Integração de MySQL com Power BI.  
+- Limpeza e transformação de dados (Power Query).  
+- Criação de **medidas DAX** para KPIs e gráficos dinâmicos.  
+- Construção de um dashboard funcional e visualmente simples.  
+- Gerenciamento de dados duplicados e relacionamento entre tabelas.
+
+---
+
+## Observações
+- Todo o projeto foi desenvolvido **localmente**, sem depender de serviços pagos.  
+- O dashboard está pronto para ser aberto e explorado no Power BI Desktop.  
+- O SQL Script permite recriar o banco de dados facilmente.
+
+---
+
+**Autor:** Karin Araujo  
+**Tecnologias:** Power BI Desktop, MySQL Workbench, DAX, SQL
