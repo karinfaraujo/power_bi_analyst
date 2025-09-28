@@ -1,0 +1,37 @@
+# 📊 Desafio de Projeto - Atualização de Relatório Financeiro com Foco na Experiência do Usuário
+
+Este repositório contém o desenvolvimento do desafio prático proposto no curso **"Excel e Power BI Dashboards"**, realizado em parceria com a **Klabin**.
+
+## 🎯 Objetivo
+
+O desafio tem como foco principal a **melhoria da experiência do usuário (UX)** em um relatório financeiro criado anteriormente, com base em princípios de design e visualização de dados.
+
+As principais metas do desafio incluem:
+
+- Reestruturar o layout do relatório utilizando os princípios de:
+  - **Posicionamento** de elementos visuais
+  - **Contraste** para facilitar a leitura e destaque de informações
+  - **Proporção áurea** para melhor equilíbrio visual
+  - **Segmentação de dados** para facilitar a análise e navegação
+
+- Tornar o relatório mais **intuitivo e interativo**, focando na **navegabilidade e usabilidade**.
+
+## ✅ Modificações Realizadas
+
+- Aplicação dos princípios de design mencionados na **primeira página do relatório**.
+- Inserção de **botões de navegação** (menus) para facilitar a movimentação entre páginas.
+- Destaque visual dos botões de navegação para indicar:
+  - Página atual (focalizar)
+  - Opção selecionada
+- Modificação da **segunda página do relatório**, mantendo a mesma linha visual e experiência demonstrada na primeira.
+- Criação de **menus de navegação em todas as páginas**.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Power BI Desktop**
+- **Princípios de Design Visual**
+- **Experiência do Usuário (UX Design)**
+
+## 📚 Sobre o Curso
+
+Este desafio faz parte do curso **Excel e Power BI Dashboards - Klabin**, que visa capacitar os participantes na criação de dashboards profissionais com foco em visualização clara, interatividade e análise eficiente dos dados.
