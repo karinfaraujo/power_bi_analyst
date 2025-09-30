@@ -1,0 +1,66 @@
+# 📊 Projeto Power BI: Parâmetros Dinâmicos com Storytelling de Dados
+
+Este projeto foi desenvolvido como parte do **curso "Klabin - Excel e Power BI Dashboards"** promovido pela **DIO (Digital Innovation One)**. O objetivo foi utilizar um relatório anterior para criar **duas visualizações interativas** no Power BI, fazendo uso de **parâmetros de campos**, com foco na criação de um **storytelling orientado ao cliente**.
+
+---
+
+## 📝 Descrição do Projeto
+
+O projeto consiste na criação de uma página de relatório no Power BI utilizando dados de vendas, lucros e categorias de produtos. O foco principal está na aplicação de **parâmetros dinâmicos** para oferecer ao usuário uma experiência mais interativa e personalizada na análise dos dados.
+
+A página final foi desenvolvida com um design voltado para apresentação ao cliente, evitando visualizações soltas e sem contexto. Toda a disposição dos gráficos e filtros foi pensada para contar uma **história clara, objetiva e informativa**.
+
+---
+
+## 🎯 Objetivos
+
+- Reutilizar um relatório existente como base.
+- Criar pelo menos **dois visuais** com base em **parâmetros de campo**:
+  - Um com base em **categorias**.
+  - Outro com base em **valores** como *Sales*, *Profit*, etc.
+- Aplicar o conhecimento adquirido durante o curso.
+- Seguir a **mesma identidade visual** e **estilização** do relatório original.
+- Criar um storytelling que guie o cliente pela análise.
+
+---
+
+## 🔍 Funcionalidades Implementadas
+
+### 1. 📁 **Parâmetro por Categorias**
+- Um visual dinâmico onde o usuário pode selecionar diferentes categorias (ex: Segment, Region, Category).
+- O gráfico se ajusta automaticamente com base na seleção.
+- Permite entender **qual categoria tem maior impacto** nos resultados.
+
+### 2. 💰 **Parâmetro por Métricas**
+- Outro visual com base em valores, permitindo ao usuário escolher entre indicadores como **Vendas (Sales)**, **Lucro (Profit)** ou **Desconto (Discount)**.
+- Facilita a comparação entre diferentes KPIs.
+- Ideal para análises de **desempenho financeiro**.
+
+---
+
+## 🧠 Storytelling da Página
+
+A página criada conta uma **história centrada na performance de vendas**, com foco em:
+
+1. **Identificação das regiões e categorias mais rentáveis.**
+2. **Análise da variação de indicadores-chave (KPIs) de forma interativa.**
+3. **Compreensão do comportamento dos dados conforme diferentes seleções feitas pelo cliente.**
+
+Foi adotado um layout limpo, com cores condizentes com o padrão visual do curso e da marca Klabin, priorizando **clareza, legibilidade e foco no dado**.
+
+---
+
+## 🖥️ Pré-Requisitos
+
+Para visualizar ou editar este projeto, você precisará do seguinte:
+
+- Power BI Desktop (versão mais recente recomendada)
+- Arquivo `.pbix` do relatório (incluído neste repositório)
+- Fonte de dados base (caso necessário atualizar ou revisar)
+
+---
+
+## 🤝 Contribuições
+
+Este projeto é acadêmico e faz parte do meu portfólio pessoal. Feedbacks e sugestões são bem-vindos!
+
